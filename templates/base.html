@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}English Premier League{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/800px-Premier_League_Logo.svg.png" alt="Premier League Logo" class="logo">
+            <h1>English Premier League</h1>
+        </div>
+
+        <!-- Раздел с логотипами клубов -->
+        <div class="club-sites">
+            <span>Club Sites</span>
+            <a href="https://www.arsenal.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGd2uSn3608d0YMSjcHmJrlu0qAUd7VAQFw&s" alt="Arsenal">
+            </a>
+            <a href="https://www.avfc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/79/FC_Aston_Villa_Logo.svg/185px-FC_Aston_Villa_Logo.svg.png" alt="Aston Villa">
+            </a>
+            <a href="https://www.afcb.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/4/41/Afc_bournemouth.svg/191px-Afc_bournemouth.svg.png" alt="Bournemouth">
+            </a>
+            <a href="https://www.brentfordfc.com/en?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/2/2e/Brentford_FC_logo.png" alt="Brentford">
+            </a>
+            <a href="https://www.brightonandhovealbion.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://фк-лого.рф/wp-content/uploads/brighton-hove-albion-big.png" alt="Brighton">
+            </a>
+            <a href="https://www.chelseafc.com/en?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/f/f7/FC_Chelsea_Logo.svg/200px-FC_Chelsea_Logo.svg.png" alt="Chelsea">
+            </a>
+            <a href="https://www.cpfc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/0/0c/Crystal_Palace_FC_logo.svg" alt="Crystal Palace">
+            </a>
+            <a href="https://www.evertonfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzaOu9WxCsW2rLqf8auB24tGGZvD2G0m_MWg&s" alt="Everton">
+            </a>
+            <a href="https://www.lcfc.com/?lang=EN&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwhkv1eAsLpU7Ap_bp0ZB-0_G-1ykDOIpZw&s" alt="Leicester City">
+            </a>
+            <a href="https://www.liverpoolfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://s.scr365.net/teams/2024/8/27/jvK9t1A_79.png" alt="Liverpool">
+            </a>
+            <a href="https://www.mancity.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUH2mfO2JmVK87hlmJ4b5CkHUNa2k3aFnGQ&s" alt="Manchester City">
+            </a>
+            <a href="https://www.manutd.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/7a/Manchester_United_FC_crest.svg/250px-Manchester_United_FC_crest.svg.png" alt="Manchester United">
+            </a>
+            <a href="https://www.newcastleunited.com/en?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgklRTPosvR6DbU_sEE7JFd4EYSZWE6PzNJw&s" alt="Newcastle United">
+            </a>
+            <a href="https://www.tottenhamhotspur.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/b/b4/Tottenham_Hotspur.svg/121px-Tottenham_Hotspur.svg.png" alt="Tottenham Hotspur">
+            </a>
+            <a href="https://www.wolves.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" target="_blank">
+                <img src="https://pictures.cdn.sports.ru/s2KMPur4Ur-1M73ai9a0yRj_bcRq198jYOigdffrffk/fill/400/400/no/1/czM6Ly9zcG9ydHMtYmFja2VuZC1zdGF0LXBpY3R1cmVzLXh3enltd3NyL1RFQU0vbWFpbi93b2x2ZXJoYW1wdG9uX3dhbmRlcmVycy5wbmc.png" alt="Wolverhampton">
+            </a>
+        </div>
+
+
+
+        <!-- Навигация -->
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('matches') }}">Matches</a>
+            <a href="{{ url_for('standings') }}">Standings</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 English Premier League. All rights reserved.</p>
+    </footer>
+</body>
+</html>

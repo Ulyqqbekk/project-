@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Home - English Premier League{% endblock %}
+{% block content %}
+    <section class="welcome-section">
+        <h2>Welcome to the English Premier League</h2>
+        <p>Stay updated with the latest matches, results, and standings.</p>
+        <a href="{{ url_for('matches') }}" class="button">View Matches</a>
+    </section>
+
+    <!-- Блок с изображением и текстом -->
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        </div>
+    </div>
+{% endblock %}
+
