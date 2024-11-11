@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -26,29 +29,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Flask server.pythonProjectә.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.about.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.admin.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.matches.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_fetcher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.home.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Flask server.pythonProjectә.executor": "Run",
+    "JavaScript Debug.about.html.executor": "Debug",
+    "JavaScript Debug.admin.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.matches.html.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.data_fetcher.executor": "Run",
+    "Python.home.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.server (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -102,7 +106,7 @@
       <workItem from="1731059906021" duration="874000" />
       <workItem from="1731075707660" duration="6225000" />
       <workItem from="1731142598791" duration="2579000" />
-      <workItem from="1731181470584" duration="3451000" />
+      <workItem from="1731181470584" duration="3766000" />
     </task>
     <servers />
   </component>
